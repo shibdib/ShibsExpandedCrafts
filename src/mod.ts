@@ -22,7 +22,10 @@ class ShibsExpandedCrafting implements IPostDBLoadMod
 
         // Loop and add new crafts
         for (const newCraft of AddedCrafts) {
-            hideoutCrafts.push(newCraft);
+            const alreadyAdded = hideoutCrafts.find((i) => i._id === newCraft._id);
+            if (!alreadyAdded) {
+                hideoutCrafts.push(newCraft);
+            }
         }
 
         logger.info(`SEC: Added ${AddedCrafts.length} new crafting recipes`);
