@@ -1,10 +1,10 @@
-import { DependencyContainer } from "tsyringe";
+import {DependencyContainer} from "tsyringe";
 
-import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
-import { DatabaseServer } from "@spt/servers/DatabaseServer";
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
-import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { AddedCrafts } from "./crafts";
+import {IPostDBLoadMod} from "@spt/models/external/IPostDBLoadMod";
+import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import {IDatabaseTables} from "@spt/models/spt/server/IDatabaseTables";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {AddedCrafts} from "./crafts";
 
 class ShibsExpandedCrafting implements IPostDBLoadMod
 {
@@ -15,9 +15,8 @@ class ShibsExpandedCrafting implements IPostDBLoadMod
 
         // get database from server
         const databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
-
-        // Get all the in-memory json found in /assets/database
         const tables: IDatabaseTables = databaseServer.getTables();
+
         let hideoutCrafts = tables.hideout.production.recipes;
 
         // Loop and add new crafts

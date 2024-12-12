@@ -1,5 +1,5 @@
 export const AddedCrafts = [
-    // Workshop
+    // Medstation
     // CMS + Med Tools = CMS (Lvl1)
     {
         "_id": "675a0e8dc5a76861100eadaf",
@@ -133,34 +133,27 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
-    // Grizz + IFAK + CAT-T + Army Bandage = Grizz (LVL2)
+    // Goldenstar + Vaseline + Analgin = Goldenstar (LVL3)
     {
-        "_id": "675a5198a4577e37d5415c74",
+        "_id": "675a848e8433ffa821e7b13b",
         "areaType": 7,
         "requirements": [
             {
-                "templateId": "5751a25924597722c463c472",
+                "templateId": "544fb37f4bdc2dee738b4567",
                 "count": 1,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
             },
             {
-                "templateId": "60098af40accd37ef2175f27",
+                "templateId": "5755383e24597772cb798966",
                 "count": 1,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
             },
             {
-                "templateId": "590c661e86f7741e566b646a",
-                "count": 1,
-                "isFunctional": false,
-                "isEncoded": false,
-                "type": "Item"
-            },
-            {
-                "templateId": "60098ad7c2240c0fe85c570a",
+                "templateId": "5751a89d24597722aa0e8db0",
                 "count": 1,
                 "isFunctional": false,
                 "isEncoded": false,
@@ -168,14 +161,14 @@ export const AddedCrafts = [
             },
             {
                 "areaType": 7,
-                "requiredLevel": 2,
+                "requiredLevel": 3,
                 "type": "Area"
             }
         ],
-        "productionTime": 2700,
+        "productionTime": 3600,
         "needFuelForAllProductionTime": false,
         "locked": false,
-        "endProduct": "60098ad7c2240c0fe85c570a",
+        "endProduct": "5751a89d24597722aa0e8db0",
         "continuous": false,
         "count": 1,
         "productionLimitCount": 0,
@@ -213,6 +206,47 @@ export const AddedCrafts = [
         "needFuelForAllProductionTime": false,
         "locked": false,
         "endProduct": "65815f0e647e3d7246384e14",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // Lavatory
+    // 10x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
+    {
+        "_id": "675a83d4adde473e4851a67e",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "56742c2e4bdc2d95058b456d",
+                "count": 10,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b36a186f7742523398433",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e35cbb86f7741778269d83",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d1b36a186f7742523398433",
         "continuous": false,
         "count": 2,
         "productionLimitCount": 0,
