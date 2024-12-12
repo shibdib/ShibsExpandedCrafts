@@ -138,10 +138,10 @@ export const AddedCrafts = [
     // 2x Large Tushonka + Salt = 2x Tarker (Lvl2)
     {
         "_id": "675a2cfdbb2fafebd9ca4b4f",
-        "areaType": 7,
+        "areaType": 8,
         "requirements": [
             {
-                "areaType": 7,
+                "areaType": 8,
                 "requiredLevel": 2,
                 "type": "Area"
             },
