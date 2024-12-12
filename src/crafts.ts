@@ -133,6 +133,55 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
+    // Grizz + IFAK + CAT-T + Army Bandage = Grizz (LVL2)
+    {
+        "_id": "675a5198a4577e37d5415c74",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5751a25924597722c463c472",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60098af40accd37ef2175f27",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c661e86f7741e566b646a",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60098ad7c2240c0fe85c570a",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 2700,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "60098ad7c2240c0fe85c570a",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
 
     // Nutrition Unit
     // 2x Large Tushonka + Salt = 2x Tarker (Lvl2)
