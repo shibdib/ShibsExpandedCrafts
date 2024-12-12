@@ -248,7 +248,7 @@ export const AddedCrafts = [
         "locked": false,
         "endProduct": "5d1b36a186f7742523398433",
         "continuous": false,
-        "count": 2,
+        "count": 1,
         "productionLimitCount": 0,
         "isEncoded": false,
         "isCodeProduction": false
