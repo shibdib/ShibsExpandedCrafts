@@ -18,12 +18,15 @@ class ShibsExpandedCrafting implements IPostDBLoadMod
 
         // Get all the in-memory json found in /assets/database
         const tables: IDatabaseTables = databaseServer.getTables();
-        const hideoutCrafts = tables.hideout.production.recipes;
+        let hideoutCrafts = tables.hideout.production.recipes;
 
         // Loop and add new crafts
         for (const newCraft of AddedCrafts) {
             const alreadyAdded = hideoutCrafts.find((i) => i._id === newCraft._id);
             if (!alreadyAdded) {
+                hideoutCrafts.push(newCraft);
+            } else {
+                hideoutCrafts = hideoutCrafts.filter(i => i._id !== newCraft._id);
                 hideoutCrafts.push(newCraft);
             }
         }
