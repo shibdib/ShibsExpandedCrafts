@@ -2,6 +2,7 @@ export const AddedCrafts = [
     // Workshop
     // CMS + Med Tools = CMS (Lvl1)
     {
+        "_id": "675a0e8dc5a76861100eadaf",
         "areaType": 7,
         "requirements": [
             {
@@ -38,6 +39,7 @@ export const AddedCrafts = [
     // Nutrition Unit
     // 2x Large Tushonka + Salt = 2x Tarker (Lvl2)
     {
+        "_id": "675a2cfdbb2fafebd9ca4b4f",
         "areaType": 7,
         "requirements": [
             {
@@ -60,7 +62,7 @@ export const AddedCrafts = [
                 "type": "Item"
             }
         ],
-        "productionTime": 3600,
+        "productionTime": 5400,
         "needFuelForAllProductionTime": false,
         "locked": false,
         "endProduct": "65815f0e647e3d7246384e14",
