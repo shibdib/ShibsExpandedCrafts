@@ -1,6 +1,6 @@
 Current Additions
 
-Workshop
+Medstation
 - CMS + Med Tools = New CMS (LVL1)
 - IFAK + AI-2 + Army Bandage + Esmarch = New IFAK (LVL2)
 - AFAK + Car + Army Bandage + CAT-T = New AFAK (LVL2)
