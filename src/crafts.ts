@@ -253,7 +253,7 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
-    // 5x Zibbo + Expeditionary fuel tank = xpeditionary fuel tank (LVL1)
+    // 6x Zibbo + Expeditionary fuel tank = xpeditionary fuel tank (LVL1)
     {
         "_id": "675b8a8728b5b35bc5f96650",
         "areaType": 2,
