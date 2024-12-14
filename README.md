@@ -11,6 +11,7 @@ Nutrition Unit
 
 Lavatory
 - Metal Fuel Tank + 10x Zibbo + Hose (Tool) = Metal Fuel Tank (LVL1)
+- Expeditionary Fuel Tank + 6x Zibbo + Hose (Tool) = Expeditionary Fuel Tank (LVL1)
 
 Planned Additions
 - You tell me, hit me up on discord/comment

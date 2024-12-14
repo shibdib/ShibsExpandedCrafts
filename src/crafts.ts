@@ -252,5 +252,44 @@ export const AddedCrafts = [
         "productionLimitCount": 0,
         "isEncoded": false,
         "isCodeProduction": false
+    },
+    // 6x Zibbo + Expeditionary fuel tank = xpeditionary fuel tank (LVL1)
+    {
+        "_id": "675b8a8728b5b35bc5f96650",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "56742c2e4bdc2d95058b456d",
+                "count": 6,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b371186f774253763a656",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e35cbb86f7741778269d83",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d1b371186f774253763a656",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
     }
 ];
