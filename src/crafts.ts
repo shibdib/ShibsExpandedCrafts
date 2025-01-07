@@ -246,7 +246,7 @@ export const AddedCrafts = [
     },
 
     // Lavatory
-    // 10x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
+    // 6x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
     {
         "_id": "675a83d4adde473e4851a67e",
         "areaType": 2,
@@ -258,7 +258,7 @@ export const AddedCrafts = [
             },
             {
                 "templateId": "56742c2e4bdc2d95058b456d",
-                "count": 10,
+                "count": 6,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
@@ -285,7 +285,7 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
-    // 6x Zibbo + Expeditionary fuel tank = Expeditionary fuel tank (LVL1)
+    // 4x Zibbo + Expeditionary fuel tank = Expeditionary fuel tank (LVL1)
     {
         "_id": "675b8a8728b5b35bc5f96650",
         "areaType": 2,
@@ -297,7 +297,7 @@ export const AddedCrafts = [
             },
             {
                 "templateId": "56742c2e4bdc2d95058b456d",
-                "count": 6,
+                "count": 4,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
