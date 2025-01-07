@@ -35,6 +35,38 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
+    // Metal Fuel Tank + Metal Cutting Scissors (Tool) = 8x Alum. Splints (Lvl1)
+    {
+        "_id": "677c7650c7a538c4210d4dc5",
+        "areaType": 7,
+        "requirements": [
+            {
+                "areaType": 7,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5d1b36a186f7742523398433",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "productionTime": 1475,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5af0454c86f7746bf20992e8",
+        "continuous": false,
+        "count": 8,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
     // IFAK + Cheese + Esmarch + Army Bandage = IFAK (LVL2)
     {
         "_id": "675a2f1abb84a45d3ec8be78",
@@ -253,7 +285,7 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
-    // 6x Zibbo + Expeditionary fuel tank = xpeditionary fuel tank (LVL1)
+    // 6x Zibbo + Expeditionary fuel tank = Expeditionary fuel tank (LVL1)
     {
         "_id": "675b8a8728b5b35bc5f96650",
         "areaType": 2,
