@@ -244,9 +244,51 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
+
+    // BakeEzy cook book (Tool) + Bottle of Norvinsky Yadreniy premium kvass + Pack of sugar = 2x Can of TarCola soda (LVL2)
+    {
+        "_id": "678ea11fc7c178bbde3f46a4",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+
+            {
+                "templateId": "62a09e73af34e73a266d932a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5e8f3423fd7471236e6e3b64",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3577886f774176a362503",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "productionTime": 5200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "57514643245977207f2c2d09",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // 1x MRE ration pack + 1x Army crackers + 1x Insulating tape = 2x Iskra ration pack (Lvl1)
     {
-        "_id": "675a2cfdbb2fafebd9ca4b4f",
+        "_id": "678ea10a3d3f023cbbda95da",
         "areaType": 8,
         "requirements": [
             {
