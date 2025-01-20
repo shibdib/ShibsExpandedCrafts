@@ -323,5 +323,74 @@ export const AddedCrafts = [
         "productionLimitCount": 0,
         "isEncoded": false,
         "isCodeProduction": false
-    }
+    },
+
+    // 1x VKBO army bag + Sewing kit [Krasavch.] = 1x Ripstop fabric (LVL1)
+    {
+        "_id": "678e50a5ebb229d04a06d40c",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "5ab8ee7786f7742d8f33f0b9",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1000,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5e2af4a786f7746d3f3c3400",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // 1x Transformer Bag + Sewing kit [Krasavch.] = 1x Ripstop fabric (LVL1)
+    {
+        "_id": "678e51b5ebb229d04a06d40e",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "56e33680d2720be2748b4576",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1000,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5e2af4a786f7746d3f3c3400",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
 ];
