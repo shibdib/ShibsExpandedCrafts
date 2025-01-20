@@ -13,6 +13,8 @@ Nutrition Unit
 Lavatory
 - Metal Fuel Tank + 6x Zibbo + Hose (Tool) = Metal Fuel Tank (LVL1)
 - Expeditionary Fuel Tank + 4x Zibbo + Hose (Tool) = Expeditionary Fuel Tank (LVL1)
+- VKBO army bag + Sewing kit (Tool) = 1x Ripstop fabric (LVL1)
+- ransformer Bag + Sewing kit (Tool) = 1x Ripstop fabric (LVL1)
 
 Planned Additions
 - You tell me, hit me up on discord/comment
