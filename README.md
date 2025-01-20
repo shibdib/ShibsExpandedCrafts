@@ -9,12 +9,14 @@ Medstation
 
 Nutrition Unit
 - 2x Large Beef Stew + Can of Salt = Tarker Jerky (LVL2)
+- MRE ration pack + Army crackers + Insulating tape = 2x Iskra ration pack (LVL1)
+- Bottle of Norvinsky Yadreniy premium kvass + Pack of sugar + BakeEzy cook book (Tool) = 2x Can of TarCola soda (LVL2)
 
 Lavatory
 - Metal Fuel Tank + 6x Zibbo + Hose (Tool) = Metal Fuel Tank (LVL1)
 - Expeditionary Fuel Tank + 4x Zibbo + Hose (Tool) = Expeditionary Fuel Tank (LVL1)
-- VKBO army bag + Sewing kit (Tool) = 1x Ripstop fabric (LVL1)
-- ransformer Bag + Sewing kit (Tool) = 1x Ripstop fabric (LVL1)
+- VKBO army bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
+- ransformer Bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
 
 Planned Additions
 - You tell me, hit me up on discord/comment
