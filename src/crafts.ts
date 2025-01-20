@@ -244,6 +244,48 @@ export const AddedCrafts = [
         "isEncoded": false,
         "isCodeProduction": false
     },
+    // 1x MRE ration pack + 1x Army crackers + 1x Insulating tape = 2x Iskra ration pack (Lvl1)
+    {
+        "_id": "675a2cfdbb2fafebd9ca4b4f",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "590c5f0d86f77413997acfab",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5448ff904bdc2d6f028b456e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5734795124597738002c6176",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "productionTime": 4600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c5d4b86f774784e1b9c45",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
 
     // Lavatory
     // 6x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
