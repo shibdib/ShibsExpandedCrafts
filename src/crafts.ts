@@ -1,3 +1,36 @@
+/*
+        **Name**          | **AreaID** | **Max level**
+    --------------------- | ---------- | -------------
+    VENTS                 | 0          | 3
+    SECURITY              | 1          | 3
+    LAVATORY              | 2          | 3
+    STASH                 | 3          | 4
+    GENERATOR             | 4          | 3
+    HEATING               | 5          | 3
+    WATER COLLECTOR       | 6          | 3
+    MEDSTATION            | 7          | 3
+    NUTRITION UNIT        | 8          | 3
+    REST SPACE            | 9          | 3
+    WORKBENCH             | 10         | 3
+    INTELLIGENCE CENTER   | 11         | 3
+    SHOOTING RANGE        | 12         | 3
+    LIBRARY               | 13         | 1
+    SCAV CASE             | 14         | 1
+    ILLUMINATION          | 15         | 3
+    PLACE OF FAME         | 16         | 3
+    AIR FILTRERING UNIT   | 17         | 1
+    SOLAR POWER           | 18         | 1
+    BOOZE GENERATOR       | 19         | 1
+    BITCOIN FARM          | 20         | 3
+    CHRISTMAS TREE        | 21         | 1
+    BROKEN WALL           | 22         | 6
+    GYM                   | 23         | 1
+    Weapon Rack           | 24         | 3     
+    Weapon Rack SECONDARY | 25         | 3
+    Gear Rack             | 26         | 3
+    Cultist Circle        | 27         | 1
+*/
+
 export const AddedCrafts = [
     // Medstation
     // CMS + Med Tools = CMS (Lvl1)
