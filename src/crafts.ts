@@ -409,6 +409,46 @@ export const AddedCrafts = [
         "isCodeProduction": false
     },
 
+     // 2x WD-40 (100ml) + KEKTAPE duct tape + Metal cutting scissors (Tool) = WD-40 (400ml) (LVL1)
+     {
+        "_id": "678f7b5333c1fdab599a7c6e",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "590c5bbd86f774785762df04",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af29386f7746d4159f077",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 2400,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c5c9f86f77477c91c36e7",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // 1x VKBO army bag + Sewing kit [Krasavch.] = 1x Ripstop fabric (LVL1)
     {
         "_id": "678e50a5ebb229d04a06d40c",

@@ -16,7 +16,8 @@ Lavatory
 - Metal Fuel Tank + 6x Zibbo + Hose (Tool) = Metal Fuel Tank (LVL1)
 - Expeditionary Fuel Tank + 4x Zibbo + Hose (Tool) = Expeditionary Fuel Tank (LVL1)
 - VKBO army bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
-- ransformer Bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
+- Transformer Bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
+- 2x WD-40 (100ml) + KEKTAPE duct tape + Metal cutting scissors (Tool) = WD-40 (400ml) (LVL1)
 
 Planned Additions
 - You tell me, hit me up on discord/comment
