@@ -32,6 +32,48 @@
 */
 
 export const AddedCrafts = [
+    //Workbench
+    // Reshala figurine + Bars A-2607 Damascus knife + Toolset (Tool) = Roler Submariner gold wrist watch (LVL1)
+    {
+        "_id": "678f8a775d46e4ec25f9879d",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "66572be36a723f7f005a066e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57e26ea924597715ca604a09",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 2954,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59faf7ca86f7740dbe19f6c2",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+
     // Medstation
     // CMS + Med Tools = CMS (Lvl1)
     {

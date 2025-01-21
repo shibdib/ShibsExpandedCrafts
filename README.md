@@ -7,6 +7,9 @@ Medstation
 - AFAK + Car + Army Bandage + CAT-T = New AFAK (LVL2)
 - Golden Star + Vaseline + Analgin = New Golden Star (LVL3)
 
+Workbench
+- Reshala figurine + Bars A-2607 Damascus knife + Toolset (Tool) = Roler Submariner gold wrist watch (LVL1)
+
 Nutrition Unit
 - 2x Large Beef Stew + Can of Salt = Tarker Jerky (LVL2)
 - MRE ration pack + Army crackers + Insulating tape = 2x Iskra ration pack (LVL1)
