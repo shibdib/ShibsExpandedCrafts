@@ -11,6 +11,7 @@ Nutrition Unit
 - 2x Large Beef Stew + Can of Salt = Tarker Jerky (LVL2)
 - MRE ration pack + Army crackers + Insulating tape = 2x Iskra ration pack (LVL1)
 - Bottle of Norvinsky Yadreniy premium kvass + Pack of sugar + BakeEzy cook book (Tool) = 2x Can of TarCola soda (LVL2)
+- Pack of Russian Army pineapple juice + Pack of apple juice + OLOLO Multivitamins + Aquamari water bottle with filter + Silicone tube (Tool) = 8x Pack of Vita juice (LVL2)
 
 Lavatory
 - Metal Fuel Tank + 6x Zibbo + Hose (Tool) = Metal Fuel Tank (LVL1)

@@ -278,6 +278,61 @@ export const AddedCrafts = [
         "isCodeProduction": false
     },
 
+     // Pack of Russian Army pineapple juice + Pack of apple juice + Bottle of OLOLO Multivitamins + Aquamari water bottle with filter + Silicone tube (Tool) = 8x Pack of Vita juice (LVL2)
+     {
+        "_id": "678f84bc51bd568d02f259b0",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb62a4bdc2dfb738b4568",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57513f07245977207e26a311",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "62a0a043cf4a99369e2624a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c0fa877d174af02a012e1cf",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b39a386f774252339976f",
+                "type": "Tool"
+            },
+            
+        ],
+        "productionTime": 6400,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "57513fcc24597720a31c09a6",
+        "continuous": false,
+        "count": 8,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // BakeEzy cook book (Tool) + Bottle of Norvinsky Yadreniy premium kvass + Pack of sugar = 2x Can of TarCola soda (LVL2)
     {
         "_id": "678ea11fc7c178bbde3f46a4",
@@ -288,7 +343,6 @@ export const AddedCrafts = [
                 "requiredLevel": 2,
                 "type": "Area"
             },
-
             {
                 "templateId": "62a09e73af34e73a266d932a",
                 "type": "Tool"
