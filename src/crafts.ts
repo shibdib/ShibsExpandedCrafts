@@ -1,4 +1,158 @@
+/*
+        **Name**          | **AreaID** | **Max level**
+    --------------------- | ---------- | -------------
+    VENTS                 | 0          | 3
+    SECURITY              | 1          | 3
+    LAVATORY              | 2          | 3
+    STASH                 | 3          | 4
+    GENERATOR             | 4          | 3
+    HEATING               | 5          | 3
+    WATER COLLECTOR       | 6          | 3
+    MEDSTATION            | 7          | 3
+    NUTRITION UNIT        | 8          | 3
+    REST SPACE            | 9          | 3
+    WORKBENCH             | 10         | 3
+    INTELLIGENCE CENTER   | 11         | 3
+    SHOOTING RANGE        | 12         | 3
+    LIBRARY               | 13         | 1
+    SCAV CASE             | 14         | 1
+    ILLUMINATION          | 15         | 3
+    PLACE OF FAME         | 16         | 3
+    AIR FILTRERING UNIT   | 17         | 1
+    SOLAR POWER           | 18         | 1
+    BOOZE GENERATOR       | 19         | 1
+    BITCOIN FARM          | 20         | 3
+    CHRISTMAS TREE        | 21         | 1
+    BROKEN WALL           | 22         | 6
+    GYM                   | 23         | 1
+    Weapon Rack           | 24         | 3     
+    Weapon Rack SECONDARY | 25         | 3
+    Gear Rack             | 26         | 3
+    Cultist Circle        | 27         | 1
+*/
+
 export const AddedCrafts = [
+    //Workbench
+    // Reshala figurine + Bars A-2607 Damascus knife + Toolset (Tool) = Roler Submariner gold wrist watch (LVL1)
+    {
+        "_id": "678f8a775d46e4ec25f9879d",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "66572be36a723f7f005a066e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57e26ea924597715ca604a09",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 2954,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59faf7ca86f7740dbe19f6c2",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // BEAR Buddy plush toy + Bars A-2607 Damascus knife + Toolset (Tool) = TP-200 TNT brick (LVL2)
+    {
+        "_id": "678f9069833f89eee01c18d1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "62a08f4c4f842e1bd12d9d62",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57e26ea924597715ca604a09",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 2954,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "60391b0fb847c71012789415",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // Bronze lion figurine + Flat screwdriver + Fierce Blow sledgehammer (Tool) = 10x GP coin (LVL2)
+    {
+        "_id": "678f91c2329fc02a90ae32bf",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "59e3639286f7741777737013",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d63d33b86f7746ea9275524",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "63a0b208f444d32d6f03ea1e",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 3200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d235b4d86f7742e017bc88a",
+        "continuous": false,
+        "count": 10,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // Medstation
     // CMS + Med Tools = CMS (Lvl1)
     {
@@ -245,7 +399,185 @@ export const AddedCrafts = [
         "isCodeProduction": false
     },
 
+     // Pack of Russian Army pineapple juice + Pack of apple juice + Bottle of OLOLO Multivitamins + Aquamari water bottle with filter + Silicone tube (Tool) = 6x Pack of Vita juice (LVL2)
+     {
+        "_id": "678f84bc51bd568d02f259b0",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb62a4bdc2dfb738b4568",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57513f07245977207e26a311",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "62a0a043cf4a99369e2624a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c0fa877d174af02a012e1cf",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b39a386f774252339976f",
+                "type": "Tool"
+            },
+            
+        ],
+        "productionTime": 6400,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "57513fcc24597720a31c09a6",
+        "continuous": false,
+        "count": 6,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // BakeEzy cook book (Tool) + Bottle of Norvinsky Yadreniy premium kvass + Pack of sugar = 2x Can of TarCola soda (LVL2)
+    {
+        "_id": "678ea11fc7c178bbde3f46a4",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "62a09e73af34e73a266d932a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5e8f3423fd7471236e6e3b64",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3577886f774176a362503",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "productionTime": 5200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "57514643245977207f2c2d09",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // 1x MRE ration pack + 1x Army crackers + 1x Insulating tape = 2x Iskra ration pack (Lvl1)
+    {
+        "_id": "678ea10a3d3f023cbbda95da",
+        "areaType": 8,
+        "requirements": [
+            {
+                "areaType": 8,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "590c5f0d86f77413997acfab",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5448ff904bdc2d6f028b456e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5734795124597738002c6176",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "productionTime": 4600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c5d4b86f774784e1b9c45",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // Lavatory
+    // LVNDMARK's rat poison + Repellent + Toolset (Tool) = 2x PAID AntiRoach spray (LVL2)
+    {
+        "_id": "678f801825bc82cca1cc0b15",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "60b0f561c4449e4cb624c1d7",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2aef7986f7746d3f3c33f5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59e3596386f774176c10a2a2",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // 6x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
     {
         "_id": "675a83d4adde473e4851a67e",
@@ -323,5 +655,114 @@ export const AddedCrafts = [
         "productionLimitCount": 0,
         "isEncoded": false,
         "isCodeProduction": false
-    }
+    },
+
+     // 2x WD-40 (100ml) + KEKTAPE duct tape + Metal cutting scissors (Tool) = WD-40 (400ml) (LVL1)
+     {
+        "_id": "678f7b5333c1fdab599a7c6e",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "590c5bbd86f774785762df04",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af29386f7746d4159f077",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 2400,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c5c9f86f77477c91c36e7",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // 1x VKBO army bag + Sewing kit [Krasavch.] = 1x Ripstop fabric (LVL1)
+    {
+        "_id": "678e50a5ebb229d04a06d40c",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "5ab8ee7786f7742d8f33f0b9",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1000,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5e2af4a786f7746d3f3c3400",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // 1x Transformer Bag + Sewing kit [Krasavch.] = 1x Ripstop fabric (LVL1)
+    {
+        "_id": "678e51b5ebb229d04a06d40e",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            },
+            {
+                "templateId": "56e33680d2720be2748b4576",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1000,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5e2af4a786f7746d3f3c3400",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
 ];
