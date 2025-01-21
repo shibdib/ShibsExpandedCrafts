@@ -363,6 +363,46 @@ export const AddedCrafts = [
     },
 
     // Lavatory
+    // LVNDMARK's rat poison + Repellent + Toolset (Tool) = 2x PAID AntiRoach spray (LVL2)
+    {
+        "_id": "678f801825bc82cca1cc0b15",
+        "areaType": 2,
+        "requirements": [
+            {
+                "areaType": 2,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "60b0f561c4449e4cb624c1d7",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2aef7986f7746d3f3c33f5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            }
+        ],
+        "productionTime": 1600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59e3596386f774176c10a2a2",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
     // 6x Zibbo + Metal Fuel Tank = Metal Fuel Tank (LVL1)
     {
         "_id": "675a83d4adde473e4851a67e",

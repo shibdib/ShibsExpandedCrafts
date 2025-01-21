@@ -18,6 +18,7 @@ Lavatory
 - VKBO army bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
 - Transformer Bag + Sewing kit (Tool) = Ripstop fabric (LVL1)
 - 2x WD-40 (100ml) + KEKTAPE duct tape + Metal cutting scissors (Tool) = WD-40 (400ml) (LVL1)
+- LVNDMARK's rat poison + Repellent + Toolset (Tool) = 2x PAID AntiRoach spray (LVL2)
 
 Planned Additions
 - You tell me, hit me up on discord/comment
