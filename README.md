@@ -9,6 +9,8 @@ Medstation
 
 Workbench
 - Reshala figurine + Bars A-2607 Damascus knife + Toolset (Tool) = Roler Submariner gold wrist watch (LVL1)
+- BEAR Buddy plush toy + Bars A-2607 Damascus knife + Toolset (Tool) = TP-200 TNT brick (LVL2)
+- Bronze lion figurine + Flat screwdriver + Fierce Blow sledgehammer (Tool) = 10x GP coin (LVL2)
 
 Nutrition Unit
 - 2x Large Beef Stew + Can of Salt = Tarker Jerky (LVL2)

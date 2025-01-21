@@ -73,6 +73,85 @@ export const AddedCrafts = [
         "isCodeProduction": false
     },
 
+    // BEAR Buddy plush toy + Bars A-2607 Damascus knife + Toolset (Tool) = TP-200 TNT brick (LVL2)
+    {
+        "_id": "678f9069833f89eee01c18d1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "62a08f4c4f842e1bd12d9d62",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57e26ea924597715ca604a09",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 2954,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "60391b0fb847c71012789415",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
+
+    // Bronze lion figurine + Flat screwdriver + Fierce Blow sledgehammer (Tool) = 10x GP coin (LVL2)
+    {
+        "_id": "678f91c2329fc02a90ae32bf",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "59e3639286f7741777737013",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d63d33b86f7746ea9275524",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "63a0b208f444d32d6f03ea1e",
+                "type": "Tool"
+            },
+        ],
+        "productionTime": 3200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d235b4d86f7742e017bc88a",
+        "continuous": false,
+        "count": 10,
+        "productionLimitCount": 0,
+        "isEncoded": false,
+        "isCodeProduction": false
+    },
 
     // Medstation
     // CMS + Med Tools = CMS (Lvl1)
