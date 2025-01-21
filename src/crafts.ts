@@ -278,7 +278,7 @@ export const AddedCrafts = [
         "isCodeProduction": false
     },
 
-     // Pack of Russian Army pineapple juice + Pack of apple juice + Bottle of OLOLO Multivitamins + Aquamari water bottle with filter + Silicone tube (Tool) = 8x Pack of Vita juice (LVL2)
+     // Pack of Russian Army pineapple juice + Pack of apple juice + Bottle of OLOLO Multivitamins + Aquamari water bottle with filter + Silicone tube (Tool) = 6x Pack of Vita juice (LVL2)
      {
         "_id": "678f84bc51bd568d02f259b0",
         "areaType": 8,
@@ -327,7 +327,7 @@ export const AddedCrafts = [
         "locked": false,
         "endProduct": "57513fcc24597720a31c09a6",
         "continuous": false,
-        "count": 8,
+        "count": 6,
         "productionLimitCount": 0,
         "isEncoded": false,
         "isCodeProduction": false
